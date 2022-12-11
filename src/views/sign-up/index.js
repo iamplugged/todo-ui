@@ -23,6 +23,7 @@ const SignUp = () => {
   };
 
   if (loggedIn) {
+    // Todo - Move this side effect
     localStorage.setItem('token', data.token);
     return <Navigate to="/todos" />;
   }
