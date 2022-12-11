@@ -32,7 +32,7 @@ export const todosSlice = createSlice({
     },
     [createTodo.fulfilled]: (state, { payload }) => {
       state.loading = false;
-      state.todos.push(payload);
+      state.todos = [payload].concat(state.todos);
     },
     [createTodo.rejected]: (state, { payload: { message } }) => {
       state.loading = false;
