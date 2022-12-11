@@ -1,0 +1,33 @@
+:root {
+  --grey-bg: #f6f7f8;
+  --dark-blue-grey: #1f2a4b;
+  --dark-sky-blue: #4a77e5;
+  --cool-grey: #9ea3b2;
+  --cool-grey-two: #a1a4ad;
+  --light-grey: #e1e1e1;
+  --white: #fff;
+  --error-bg: #ffeeee;
+  --error-text: #f24d69;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--grey-bg);
+  color: var(--dark-blue-grey);
+  font-size: 16px;
+  font-family: 'Mark Pro', sans-serif;  
+  margin: 0;                                         
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::placeholder {
+  color: var(--cool-grey);
+}
+
+::-ms-input-placeholder {
+  color: var(--cool-grey);
+}

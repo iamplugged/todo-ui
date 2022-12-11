@@ -1,0 +1,27 @@
+.title {
+  color: var(--dark-blue-grey);
+  font-size: 22px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.subTitle {
+  color: var(--cool-grey-two);
+  font-size: 16px;
+  margin-top: 6px;
+}
+
+.form {
+  margin: 35px 0 28px;
+}
+
+.field {
+  margin-bottom: 22px;
+}
+
+.link {
+  color: var(--dark-blue-grey);
+  display: block;
+  font-size: 14px;
+  margin-bottom: 52px;
+}
